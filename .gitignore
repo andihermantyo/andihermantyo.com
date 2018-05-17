@@ -67,3 +67,4 @@ nbdist/
 .nb-gradle/
 
 /.ftpquota
+/cgi-bin/
