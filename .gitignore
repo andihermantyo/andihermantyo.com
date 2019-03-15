@@ -69,4 +69,5 @@ nbdist/
 /.ftpquota
 /cgi-bin/
 /mantenwahyulia/
+/error_log
 
