@@ -66,8 +66,7 @@ dist/
 nbdist/
 .nb-gradle/
 
-/.ftpquota
-/cgi-bin/
-/mantenwahyulia/
-/error_log
+.ftpquota
+cgi-bin/
+error_log
 
