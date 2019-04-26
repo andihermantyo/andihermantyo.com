@@ -13,12 +13,13 @@
     "url": "git+https://github.com/andihermantyo/andihermantyo.com.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Stephanus Andi Hermantyo",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/andihermantyo/andihermantyo.com/issues"
   },
   "homepage": "https://github.com/andihermantyo/andihermantyo.com#readme",
+  "private": true,
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
