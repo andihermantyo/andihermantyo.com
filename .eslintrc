@@ -1,14 +1,24 @@
 {
-  "root": true,
   "env": {
     "browser": true,
     "es6": true,
     "node": true
   },
-  "extends": "eslint:recommended",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "parser": "babel-eslint",
+  "root": true,
   "rules": {
+    "linebreak-style": ["error", "unix"],
     "no-console": 0,
     "semi": ["error", "always"],
     "quotes": ["error", "single"]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }

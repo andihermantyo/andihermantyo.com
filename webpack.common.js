@@ -1,18 +1,20 @@
-const path = require('path');
-
 module.exports = {
 	module: {
 		rules: [
 			{
-				include: [path.resolve(__dirname, 'src')],
+                enforce: 'pre',
+                exclude: /node_modules/,
+                loader: 'eslint-loader',
+                test: /\.js$/
+			},
+			{
+                exclude: /node_modules/,
 				loader: 'babel-loader',
 				test: /\.js$/
 			}
 		]
 	},
-
 	output: {
-		chunkFilename: '[name].[chunkhash].js',
-		filename: '[name].[chunkhash].js'
-	},
+		filename: '[name].bundle.js'
+	}
 };
