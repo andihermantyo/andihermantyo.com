@@ -25,6 +25,7 @@ module.exports = {
         new cleanWebpackPlugin(),
         new htmlWebpackPlugin({
             appMountId: 'root',
+            favicon: 'src/favicon.ico',
             inject: false,
             mobile: true,
             template: htmlWebpackTemplate,

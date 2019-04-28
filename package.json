@@ -9,6 +9,7 @@
     "dev": "webpack --config webpack.dev.js",
     "lint": "run-s lint:*",
     "lint:js": "eslint ./",
+    "serve": "serve -s dist",
     "start": "webpack-dev-server --config webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "web": "http-server dist/"
