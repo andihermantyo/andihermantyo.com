@@ -19,7 +19,7 @@ module.exports = {
         ]
     },
     output: {
-        filename: '[name].bundle.js'
+        filename: '[name].js'
     },
     plugins: [
         new cleanWebpackPlugin(),
