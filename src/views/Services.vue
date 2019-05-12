@@ -1,5 +1,5 @@
 <template>
-  <div class="services">
+  <div>
     <h1>This is an services page</h1>
   </div>
 </template>
