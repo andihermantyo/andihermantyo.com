@@ -1,12 +1,25 @@
 {
   "name": "andihermantyo.com",
   "version": "0.1.0",
+  "description": "Andi Hermantyo website. http://andihermantyo.com",
+  "main": "n/a",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andihermantyo/andihermantyo.com.git"
+  },
+  "keywords": [],
+  "author": "Stephanus Andi Hermantyo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andihermantyo/andihermantyo.com/issues"
+  },
+  "homepage": "https://github.com/andihermantyo/andihermantyo.com#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "core-js": "^2.6.5",
